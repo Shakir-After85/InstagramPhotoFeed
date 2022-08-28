@@ -1,0 +1,50 @@
+body{
+    background: lightgrey;
+}
+
+header{
+    background: white;
+    margin: auto; 
+    padding:10px  
+}
+
+.photo-feed{
+    background: white;
+    width: 50%;
+    max-height:auto;
+    margin:auto;
+    
+}
+
+div{
+    box-sizing: border-box;
+    
+}
+
+.photo{
+    width: 100%;
+    height: auto;
+}
+
+.photo-feed h2, .photo-feed p {
+    padding: 5px;
+}
+
+
+span{
+    
+    float: right;
+    margin: auto;
+    
+    
+}
+
+
+div .photo-feed .content div:first-child{
+    display: inline-block;
+    width: 18%;
+}
+
+    
+
+
