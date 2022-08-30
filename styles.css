@@ -12,39 +12,23 @@ header{
     background: white;
     width: 50%;
     max-height:auto;
-    margin:auto;
+    margin:10px auto;
     
 }
 
-div{
-    box-sizing: border-box;
-    
-}
-
-.photo{
+.photo img{
     width: 100%;
-    height: auto;
 }
 
-.photo-feed h2, .photo-feed p {
-    padding: 5px;
+.photo-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
 }
 
-
-span{
-    
-    float: right;
-    margin: auto;
-    
-    
-}
-
-
-div .photo-feed .content div:first-child{
-    display: inline-block;
-    width: 18%;
+.caption{
+    padding: 0 10px 10px 10px;
 }
 
     
-
-
